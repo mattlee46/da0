@@ -56,8 +56,8 @@ const Inspiration = () => (
     </LinkContainer>
     
     <IconContainer>
-      <img src="/images/icon_twitter.png" alt="Menu" />
-      <img src="/images/icon_hashtag.png" alt="Menu" />
+      <img src="images/icon_twitter.png" alt="Menu" />
+      <img src="images/icon_hashtag.png" alt="Menu" />
     </IconContainer>
   </InspirationContainer>
 );
