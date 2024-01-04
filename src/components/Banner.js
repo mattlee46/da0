@@ -28,7 +28,7 @@ const DesktopBanner = styled.div`
 const Banner = () => (
   <>
     <DesktopBanner>
-      <img src="/images/da0_banner.png" alt="Menu" />
+      <img src="images/da0_banner.png" alt="Menu" />
     </DesktopBanner>
    
   </>
