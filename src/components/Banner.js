@@ -20,7 +20,7 @@ const DesktopBanner = styled.div`
   }
 
   @media (max-width: 500px) {
-    
+    max-width: 100vw;
   }
 `;
 

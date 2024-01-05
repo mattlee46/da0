@@ -11,8 +11,12 @@ const ContributorsContainer = styled.div`
 const Line = styled.div`
   color: ${(props) => props.color};
   margin-bottom: 2.5%;
-  font-weight:700;
+  font-weight:bold;
   font-size:2em;
+
+  @media (max-width: 500px) {
+    font-size:1.5em;
+  }
 `;
 
 const TextContainer = styled.div`
@@ -27,6 +31,13 @@ const TextContainer = styled.div`
     font-weight:700;
     font-size:1.5em;
     margin-bottom: 0;
+  }
+
+  @media (max-width: 500px) {
+    p{
+      font-size:1em;
+    }
+    
   }
 `;
 

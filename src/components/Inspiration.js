@@ -13,6 +13,10 @@ const Line = styled.div`
   margin-bottom: 2.5%;
   font-weight:bold;
   font-size:2em;
+
+  @media (max-width: 500px) {
+    font-size:1.5em;
+  }
 `;
 
 const LinkContainer = styled.div`
@@ -28,6 +32,10 @@ const Link = styled.a`
   font-weight:900;
   font-size:1.5em;
 
+  @media (max-width: 500px) {
+    font-size:1em;
+  }
+
 `;
 
 const IconContainer = styled.div`
@@ -36,7 +44,7 @@ const IconContainer = styled.div`
   gap: 0%;
 
   img {
-    max-width: 50%; /* 調整圖片最大寬度 */
+    max-width: 40%; /* 調整圖片最大寬度 */
     height: auto; /* 確保高度按比例縮放 */
   }
 `;

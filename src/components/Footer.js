@@ -15,6 +15,10 @@ const Line = styled.div`
 
   font-weight:700;
   font-size:1.5em;
+
+  @media (max-width: 500px) {
+    font-size:1em;
+  }
 `;
 
 
