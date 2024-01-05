@@ -44,8 +44,12 @@ const IconContainer = styled.div`
   gap: 0%;
 
   img {
-    max-width: 40%; /* 調整圖片最大寬度 */
+    max-width: 50%; /* 調整圖片最大寬度 */
     height: auto; /* 確保高度按比例縮放 */
+  }
+
+  @media (max-width: 500px) {
+    max-width: 40%;
   }
 `;
 
