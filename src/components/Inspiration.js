@@ -1,7 +1,7 @@
 // src/components/Inspiration.js
 import React from 'react';
 import styled from 'styled-components';
-//import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+
 
 const InspirationContainer = styled.div`
   text-align: center;
@@ -11,7 +11,7 @@ const InspirationContainer = styled.div`
 const Line = styled.div`
   color: ${(props) => props.color};
   margin-bottom: 2.5%;
-  font-weight:700;
+  font-weight:bold;
   font-size:2em;
 `;
 
@@ -25,7 +25,7 @@ const LinkContainer = styled.div`
 const Link = styled.a`
   color: #1E1E1E;
   text-decoration: none;
-  font-weight:400;
+  font-weight:900;
   font-size:1.5em;
 
 `;
@@ -33,21 +33,19 @@ const Link = styled.a`
 const IconContainer = styled.div`
   display: flex;
   justify-content: center;
-  gap: 2%;
+  gap: 0%;
 
   img {
-    max-width: 100%; /* 調整圖片最大寬度 */
+    max-width: 50%; /* 調整圖片最大寬度 */
     height: auto; /* 確保高度按比例縮放 */
   }
 `;
 
-// const Icon = styled.div`
-//   margin: 0 10px;
-// `;
+
 
 const Inspiration = () => (
   <InspirationContainer>
-    <Line color="#757575">inspiration</Line>
+    <Line color="#757575" >inspiration</Line>
     
     <LinkContainer color="#1E1E1E">
       <Link href="https://twitter.com/hashtag/Democracy?src=hashtag_click" target="_blank">#democracy</Link>{' '}
@@ -56,8 +54,8 @@ const Inspiration = () => (
     </LinkContainer>
     
     <IconContainer>
-      <img src="images/icon_twitter.png" alt="Menu" />
-      <img src="images/icon_hashtag.png" alt="Menu" />
+      <a href="https://twitter.com/da0_g0v_tw" target="_blank"><img src="images/icon_twitter.png" alt="Menu" /></a>
+      <a href="https://t.co/soRNZJ8x8q" target="_blank"><img src="images/icon_hashtag.png" alt="Menu" /></a>
     </IconContainer>
   </InspirationContainer>
 );
