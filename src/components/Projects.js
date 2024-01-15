@@ -51,7 +51,14 @@ const Projects = () => (
     
     <TextContainer color="#1E1E1E">
       <p>da0 Shoutout By 昶惟</p>
-      <p>da0 Shoutout By 昶惟</p>
+      <p>da0 podcasts By Noah</p>
+      <p>da0 learning By Billy</p>
+      <p>da0 did By Noah</p>
+      <p>da0 2024 residency By Vivian</p>
+      <p>鏈AI By Jacky</p>
+      <p>Plurality By Vivian</p>
+      <p>da0 Infrastructure By Noah</p>
+      <p>da0 RPGF By Weijen</p>
       
     </TextContainer>
     
