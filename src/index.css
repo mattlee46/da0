@@ -1,8 +1,9 @@
 @font-face {
   font-family: 'Satoshi Variable';
   src: url('../public/fonts/Satoshi-Variable.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 600;
   font-style: normal;
+  font-stretch: condensed; /* 设置字体为紧缩 */
 }
 
 body {
