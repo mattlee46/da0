@@ -15,9 +15,9 @@ const DesktopBanner = styled.div`
 
   img {
     max-width: 100%; /* 調整圖片最大寬度 */
-    max-height:100%;
+    max-height:50%;
      /* 確保高度按比例縮放 */
-    margin: auto 0;
+    margin: auto auto;
 
   }
 
