@@ -10,18 +10,18 @@ const DesktopBanner = styled.div`
   max-width: 50vw;
   margin: 0 auto;
   margin-bottom: 2.5%;
+   height: 70vh;
   
 
   img {
     max-width: 100%; /* 調整圖片最大寬度 */
-    height: auto; /* 確保高度按比例縮放 */
-    margin: 0 auto;
+    max-height:100%;
+     /* 確保高度按比例縮放 */
+    margin: auto 0;
 
   }
 
-  @media (max-width: 500px) {
-    max-width: 100vw;
-  }
+
 `;
 
 
