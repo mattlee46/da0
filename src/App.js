@@ -1,11 +1,11 @@
 // src/App.js
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
 import GlobalStyle from './GlobalStyles';
 
 import Home from './pages/Home';
-
+import PreviousProjects from './pages/PreviousProjects'
 
 const Container = styled.div`
   max-width: 100%;
@@ -28,6 +28,7 @@ function App() {
                   
             
             <Route path="/" element={<Home />} />
+            <Route path="/previousprojects" element={<PreviousProjects />} />
          
 
 
@@ -39,3 +40,5 @@ function App() {
 }
 
 export default App;
+
+

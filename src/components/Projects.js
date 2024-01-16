@@ -23,11 +23,24 @@ const Line = styled.div`
   }
 `;
 
+const Line2 = styled.div`
+  color: ${(props) => props.color};
+  margin-top:0%;
+  margin-bottom: 2.5%;
+  font-weight:600;
+  font-size:1em;
+
+  @media (max-width: 500px) {
+    font-size:1em;
+  }
+`;
+
+
 const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 2.5%;
+  margin-bottom: 1.5%;
   
 
   p{
@@ -42,7 +55,10 @@ const TextContainer = styled.div`
      
       font-size:1em;
 
+
     }
+    
+    margin-bottom: 7%;
   }
 `;
 
@@ -63,9 +79,10 @@ const Projects = () => (
       <a href="/" target="_blank" style={{ textDecoration: 'none' }}><p>鏈AI by Jacky</p></a>
       <a href="https://t.co/soRNZJ8x8q" target="_blank" style={{ textDecoration: 'none' }}><p>da0 Infrastructure by Frank Hu</p></a>
       <a href="/" target="_blank" style={{ textDecoration: 'none' }}><p>da0 c0w0rk by Yian 逸晟</p></a>
+     
       
     </TextContainer>
-    
+    <a href="/previousprojects" target="" style={{ textDecoration: 'none' }}><Line2 color="#757575" >previous projects</Line2></a>
 
   </ProjectsContainer>
 );
