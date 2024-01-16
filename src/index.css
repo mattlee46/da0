@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Satoshi Variable';
   src: url('../public/fonts/Satoshi-Variable.ttf') format('truetype');
-  font-weight: 600;
+  
   font-style: normal;
-  font-stretch: condensed; /* 设置字体为紧缩 */
+  
 }
 
 body {
@@ -15,8 +15,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* 如果你想要保留原始的 code 字型設定，可以在這裡加入 */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

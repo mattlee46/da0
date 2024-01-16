@@ -3,17 +3,21 @@ import styled from 'styled-components';
 
 const ContributorsContainer = styled.div`
   text-align: center;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+
+  @media (max-width: 500px) {
+    margin-bottom: 10%;
+  }
 `;
 
 const Line = styled.div`
   color: ${(props) => props.color};
-  margin-bottom: 4%;
-  font-weight: bold;
-  font-size: 2em;
+  margin-bottom: 3%;
+  font-weight: 400;
+  font-size: 1.5em;
 
   @media (max-width: 500px) {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 `;
 
@@ -24,10 +28,11 @@ const TextContainer = styled.div`
   margin-bottom: 1.5%;
 
 
+
   p {
     color: #1e1e1e;
-    font-weight: 700;
-    font-size: 1.5em;
+    font-weight: 600;
+    font-size: 1em;
     margin: 0;
   }
 
@@ -83,7 +88,7 @@ const Contributors = () => {
     <ContributorsContainer>
       <Line color="#757575">prominent contributors</Line>
       {users.map((user) => (
-        <TextContainer key={user.name} color="#1e1e1e">
+        <TextContainer key={user.name} color="#1e1e1e" >
           <p>{user.name}</p>
           
         </TextContainer>

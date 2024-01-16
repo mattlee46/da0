@@ -5,14 +5,18 @@ import styled from 'styled-components';
 
 const ProjectsContainer = styled.div`
   text-align: center;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+
+  @media (max-width: 500px) {
+    margin-bottom: 10%;
+  }
 `;
 
 const Line = styled.div`
   color: ${(props) => props.color};
-  margin-bottom: 2.5%;
-  font-weight:bold;
-  font-size:2em;
+  margin-bottom: 2%;
+  font-weight:400;
+  font-size:1.5em;
 
   @media (max-width: 500px) {
     font-size:1.5em;
@@ -28,8 +32,8 @@ const TextContainer = styled.div`
 
   p{
     color: #1E1E1E;
-    font-weight:700;
-    font-size:1.5em;
+    font-weight:600;
+    font-size:1em;
     margin-bottom: 0;
   }
 
@@ -50,15 +54,15 @@ const Projects = () => (
     <Line color="#757575">ongoing projects</Line>
     
     <TextContainer color="#1E1E1E">
-      <p>da0 Shoutout By 昶惟</p>
-      <p>da0 podcasts By Noah</p>
-      <p>da0 learning By Billy</p>
-      <p>da0 did By Noah</p>
-      <p>da0 2024 residency By Vivian</p>
-      <p>鏈AI By Jacky</p>
-      <p>Plurality By Vivian</p>
-      <p>da0 Infrastructure By Noah</p>
-      <p>da0 RPGF By Weijen</p>
+      <a href="/" target="_blank" style={{ textDecoration: 'none' }}><p>da0 Shoutout by 昶惟</p></a>
+      <a href="https://open.spotify.com/episode/00CUOj1PcvOHKZfh7jW3a3" target="_blank" style={{ textDecoration: 'none' }}><p>零到烏托邦 by Noah Yeh</p></a>
+      <a href="https://open.spotify.com/episode/640RPy0EYEKtukgoiE4af2" target="_blank" style={{ textDecoration: 'none' }}><p>聽不DAO podcast by Jacky</p></a>
+      <a href="/" target="_blank" style={{ textDecoration: 'none' }}><p>da0 learning by Billy3321</p></a>
+      <a href="/" target="_blank" style={{ textDecoration: 'none' }}><p>DID initiatives by Noah Yeh</p></a>
+      <a href="/" target="_blank" style={{ textDecoration: 'none' }}><p>ZuTaiwan by Vivian Chen</p></a>
+      <a href="/" target="_blank" style={{ textDecoration: 'none' }}><p>鏈AI by Jacky</p></a>
+      <a href="https://t.co/soRNZJ8x8q" target="_blank" style={{ textDecoration: 'none' }}><p>da0 Infrastructure by Frank Hu</p></a>
+      <a href="/" target="_blank" style={{ textDecoration: 'none' }}><p>da0 c0w0rk by Yian 逸晟</p></a>
       
     </TextContainer>
     
