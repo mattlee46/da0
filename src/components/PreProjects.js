@@ -63,7 +63,7 @@ const TextContainer = styled.div`
 
 
 
-const PreProjects = () => (
+const Preprojects = () => (
   <ProjectsContainer>
     <a href="/" target="" style={{ textDecoration: 'none' }}><Line2 color="#757575" >&lt; back</Line2></a>
 
@@ -92,4 +92,4 @@ const PreProjects = () => (
   </ProjectsContainer>
 );
 
-export default PreProjects;
+export default Preprojects;
