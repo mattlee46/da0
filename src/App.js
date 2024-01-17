@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import GlobalStyle from './GlobalStyles';
 
 import Home from './pages/Home';
-import PreviousProjects from './pages/PreviousProjects'
+// import PreviousProjects from './pages/PreviousProjects'
 
 const Container = styled.div`
   max-width: 100%;
@@ -28,7 +28,7 @@ function App() {
                   
             
             <Route path="/" element={<Home />} />
-            <Route path="/previousprojects" element={<PreviousProjects />} />
+            {/*<Route path="/previousprojects" element={<PreviousProjects />} />*/}
          
 
 
