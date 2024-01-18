@@ -82,7 +82,7 @@ const Projects = () => (
      
       
     </TextContainer>
-    <a href="/previousprojects" target="" style={{ textDecoration: 'none' }}><Line2 color="#757575" >previous projects</Line2></a>
+    <a href="/#/previousprojects" target="" style={{ textDecoration: 'none' }}><Line2 color="#757575" >previous projects</Line2></a>
 
   </ProjectsContainer>
 );
